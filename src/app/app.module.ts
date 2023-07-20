@@ -9,13 +9,13 @@ import { FooterComponent } from './layouts/footer/footer.component';
 import { HomeComponent } from './pages/home/home.component';
 import { SingleCategoryComponent } from './pages/single-category/single-category.component';
 import { SinglePostComponent } from './pages/single-post/single-post.component';
-import { TermsAndC0nditionsComponent } from './pages/terms-and-c0nditions/terms-and-c0nditions.component';
 import { ContactUsComponent } from './pages/contact-us/contact-us.component';
 import { SubscriptionFormComponent } from './subscription-form/subscription-form.component';
 import { CommentFormComponent } from './comments/comment-form/comment-form.component';
 import { CommentListComponent } from './comments/comment-list/comment-list.component';
 import { AboutUsComponent } from './pages/about-us/about-us.component';
 import { PostCardComponent } from './layouts/post-card/post-card.component';
+import { TermsAndConditionsComponent } from './pages/terms-and-conditions/terms-and-conditions.component';
 
 @NgModule({
   declarations: [
@@ -26,13 +26,13 @@ import { PostCardComponent } from './layouts/post-card/post-card.component';
     HomeComponent,
     SingleCategoryComponent,
     SinglePostComponent,
-    TermsAndC0nditionsComponent,
     ContactUsComponent,
     SubscriptionFormComponent,
     CommentFormComponent,
     CommentListComponent,
     AboutUsComponent,
-    PostCardComponent
+    PostCardComponent,
+    TermsAndConditionsComponent
   ],
   imports: [
     BrowserModule,
